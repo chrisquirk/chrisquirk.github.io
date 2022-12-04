@@ -1,0 +1,38 @@
+body {
+  font-family: MS Gothic;
+}
+div.lbox {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #d0d0d0;
+  width: 5em;
+  height: 7em;
+  position: relative;
+  display: inline-block;
+}
+div.index {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 8pt;
+}
+div.strokes {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 8pt;
+}
+div.kanji {
+  top: 10px;
+  width: 100%;
+  font-size: 24pt;
+  text-align: center;
+}
+div.meaning,div.onyomi,div.kunyomi {
+  width: 100%;
+  text-align: center;
+  font-size: 8pt;
+}
+div.onyomi { color: purple; }
+div.kunyomi { color: brown; }
+div.meaning { color: green; }
